@@ -2,6 +2,9 @@
 ### Summary:
 Once in a while, Starbucks sends out offers to their customers as a marketing strategy. Offers are of different types and every customers may receive different kinds and numbers of special offers. Specifically for this project, we are going to focus on building a **classification machine learning model**. As we know, Starbucks sends out offers with costs, so they are interested in knowing whether one offer will be completed or not by a certain user. If one offer is predicted to be 'not completed' in the future, then Starbucks can save money by not sending out this offer. 
 
+### Link to Medium:
+I have a post related to this project here: https://medium.com/@zuobeizhou/who-will-complete-a-starbucks-offer-56e879d22451.
+
 ### Files:
 There are two folders: data and code.
 1. **data**: It contains a data.zip file. There are three .json files within this zip files which are the data sets for this project.
