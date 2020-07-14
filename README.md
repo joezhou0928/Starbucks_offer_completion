@@ -1,6 +1,6 @@
 # Starbucks_offer_completion
 ### Summary:
-Once in a while, Starbucks sends out offers to their customers as a marketing strategy. Offers are of different types and every customers may receive different kinds and numbers of special offers. Starbucks keeps records of their customers' demographic data, offer portfolio and transcript data including customers' transactions and offers' sending out. Specifically for this project, we are going to focus on building a **classification machine learning model**. As we know, Starbucks sends out offers with costs, so they are interested in knowing whether one offer will be completed or not by a certain user. If one offer is predicted to be 'not completed' in the future, then Starbucks can save money by not sending out this offer. 
+Once in a while, Starbucks sends out offers to their customers as a marketing strategy. Offers are of different types and every customers may receive different kinds and numbers of special offers. Specifically for this project, we are going to focus on building a **classification machine learning model**. As we know, Starbucks sends out offers with costs, so they are interested in knowing whether one offer will be completed or not by a certain user. If one offer is predicted to be 'not completed' in the future, then Starbucks can save money by not sending out this offer. 
 
 ### Files:
 There are two folders: data and code.
@@ -19,5 +19,6 @@ Please make sure you have these libraries pre-installed: pandas, numpy, math, js
 
 ### Libraries used:
 **Image 1**: Completion Prediction
-![Completion Prediction](https://github.com/joezhou0928/Disaster-message-classification/blob/master/ML.png)
-
+![Completion Prediction](https://github.com/joezhou0928/Starbucks_offer_completion/blob/master/completion_prediction.png)
+**Image 2**: Feature Importance
+![Feature Importance](https://github.com/joezhou0928/Starbucks_offer_completion/blob/master/feature_imp.png)
