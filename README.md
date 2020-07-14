@@ -1,25 +1,23 @@
 # Starbucks_offer_completion
 ### Summary:
-This project is about disaster messages classification based on machine learning. During each disaster event, people would post messages on different categories depending on their urgent needs. Knowing the category/categories of each message can improve the efficiency of disaster relief agencies' work. An web app is also built to visualize the analysis.
+Once in a while, Starbucks sends out offers to their customers as a marketing strategy. Offers are of different types and every customers may receive different kinds and numbers of special offers. Starbucks keeps records of their customers' demographic data, offer portfolio and transcript data including customers' transactions and offers' sending out. Specifically for this project, we are going to focus on building a **classification machine learning model**. As we know, Starbucks sends out offers with costs, so they are interested in knowing whether one offer will be completed or not by a certain user. If one offer is predicted to be 'not completed' in the future, then Starbucks can save money by not sending out this offer. 
+
 ### Files:
-There are three folders: app, data and models.
-1. **data**: Two csv files contain the data we need. process_data.py will process raw data and write clean data into a database. This is the *first* python file to execute.
-2. **models**: train_classifier.py will read in the clean data from the database and train a machine learning for the classification. This is the *second* python file to execute.
-3. **app**: run.py file will set up the application for us as the last step. This is the *last* python file to execute.
+There are two folders: data and code.
+1. **data**: It contains a data.zip file. There are three .json files within this zip files which are the data sets for this project.
+2. **code**: There are two files. One is the a jupyter notebook and the other one is the .py file exported from the notebook.
+
 ### Instructions:
-1. Run the following commands to set up your database and model.
+1. Download all the files and put them under the same folder.
+2. Within that folder, unzip the data.zip file and put all .json files under a folder called 'data'.
+3. From here, you are good to go and are able to execute the python code without error. But the code may take a while (40 minutes and more) to run.
 
-    - To run ETL pipeline that cleans data and stores in database (needed files are under the folder called **data**)
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves (needed file is under the folder called **models**)
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+### Libraries used:
+Please make sure you have these libraries pre-installed: pandas, numpy, math, json, time, matplotlib, seaborn, sklearn and itertools.
 
-2. Run the following command in the app's directory to run your web app.
-    `python run.py`
 
-3. Go to https://SPACEID-3001.SPACEDOMAIN to check your application! To know the SPACEID and SPACEDOMAIN, type in 'env | grep WORK' in your command prompt.
-### Examples:
-**Image 1**: Message Classification
-![Message Classification](https://github.com/joezhou0928/Disaster-message-classification/blob/master/ML.png)
-**Image 2**: Distribution of Total Number of Categories Related
-![Distribution of Total Number of Categories Related](https://github.com/joezhou0928/Disaster-message-classification/blob/master/Viz.png)
+
+### Libraries used:
+**Image 1**: Completion Prediction
+![Completion Prediction](https://github.com/joezhou0928/Disaster-message-classification/blob/master/ML.png)
+
