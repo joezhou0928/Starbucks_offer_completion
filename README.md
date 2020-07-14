@@ -15,10 +15,17 @@ There are two folders: data and code.
 ### Libraries used:
 Please make sure you have these libraries pre-installed: pandas, numpy, math, json, time, matplotlib, seaborn, sklearn and itertools.
 
+### Result:
+1. Classification accuracy. The second model achieves an accuracy of 77%. This model is a refined version of the first model with accuracy of 70%.
+2. Feature importances. User demographics data are helpful in making predictions including income, age and the time they became a member. However, the amount of money each customer has spent before is the most important feature out of all.
 
 
-### Libraries used:
+### Result Screenshots from the second model:
 **Image 1**: Completion Prediction
 ![Completion Prediction](https://github.com/joezhou0928/Starbucks_offer_completion/blob/master/completion_prediction.png)
+
 **Image 2**: Feature Importance
 ![Feature Importance](https://github.com/joezhou0928/Starbucks_offer_completion/blob/master/feature_imp.png)
+
+### Acknowledgement:
+*A Collection of Data Science Take-Home Challenges* by Giulio Palombo
