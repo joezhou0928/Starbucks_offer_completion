@@ -1,4 +1,4 @@
-# Starbucks_offer_completion
+# Starbucks Offer Completion Prediction
 ### Summary:
 Once in a while, Starbucks sends out offers to their customers as a marketing strategy. Offers are of different types and every customers may receive different kinds and numbers of special offers. Specifically for this project, we are going to focus on building a **classification machine learning model**. As we know, Starbucks sends out offers with costs, so they are interested in knowing whether one offer will be completed or not by a certain user. If one offer is predicted to be 'not completed' in the future, then Starbucks can save money by not sending out this offer. 
 
